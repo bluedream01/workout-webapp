@@ -16,18 +16,20 @@ This project is organized into two main directories:
 
 ### 1. Clone the Repository
 
-```bash
-gh repo clone bluedream01/workout-webapp
 
-cd frontend
-npm install
-npm start
+    gh repo clone bluedream01/workout-webapp
 
-cd backend
-npm install
-npm run dev
+### 2. Run the frontend
 
-change the env
+    cd frontend
+    npm install
+    npm start
+### 3. Run the Backend
+    cd backend
+    npm install
+    npm run dev
+
+### 4. Change the env
 PORT=5000
 MONGO_URI=your-mongodb-uri
 
